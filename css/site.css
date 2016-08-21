@@ -11,7 +11,7 @@ a{
   transition: ease all 1s;
   text-shadow: 0px 0px 5px #fff;
 }
-a.hover:{
+a:hover{
   color: #2980b9;
   text-decoration: none;
   }
