@@ -5,6 +5,7 @@ body{
 }
 h1, h2, h3, h4{
   font-family: "Press Start 2P" !important;
+  color: white;
 }
 #content{
   background-color:rgba(0, 0, 0, 0.25);
@@ -22,9 +23,32 @@ h1, h2, h3, h4{
   opacity:1;
 }
 
-.list-group{
+.list-group, list-group-item{
     background-color:rgba(0, 0, 0, 0.25) !important;
+    border-radius: 0 !important;
+    border-color: #000000;
 }
-.list-group-item{
-    background-color:rgba(0, 0, 0, 0.25) !important;
+.tags {
+padding-left: 7px;
+padding-right: 7px;
+}
+.tags li {
+display: inline;
+}
+.tag {
+background-color: #bb52ef;
+-webkit-border-radius: 4px 3px 3px 4px;
+-moz-border-radius: 4px 3px 3px 4px;
+border-radius: 4px 3px 3px 4px;
+position: relative;
+color: #fff;
+display: inline-block;
+text-decoration: none;
+font-family: arial, helvetica, sans-serif;
+font-size: 14px;
+
+zoom: 1;
+line-height: 22px;
+padding: 0 8px 0 10px;
+margin: 4px 4px 4px 8px;
 }
