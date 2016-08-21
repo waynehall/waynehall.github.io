@@ -2,7 +2,7 @@
   var app = angular.module('app', []);
     app.controller('AppController', function ($scope) {
       this.portfolio = programs;
-
+      $scope.navtab = 1
     })
 
 
