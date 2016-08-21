@@ -24,11 +24,13 @@ h1, h2, h3, h4{
 
 .list-group{
     background-color:rgba(0, 0, 0, 0.25) !important;
-    border-radius: 0;
-    border-color: black;
+    border-radius: 0 !important;
+    border-color: black !important;
 }
 .list-group-item{
     background-color:rgba(0, 0, 0, 0.25) !important;
+    border-radius: 0 !important;
+    border-color: black !important;
 }
 .tags {
 padding-left: 7px;
