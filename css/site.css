@@ -9,11 +9,10 @@ h1, h2, h3, h4{
 a{
   color: #3498db;
   transition: ease all 1s;
-  text-shadow: 0px 0px 5px #fff;
 }
 a:hover{
   color: #2980b9;
-  text-decoration: none;
+  text-decoration: none !important;
   }
 #content{
   background-color:rgba(0, 0, 0, 0.25);
