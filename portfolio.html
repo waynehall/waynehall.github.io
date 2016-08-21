@@ -1,34 +1,27 @@
 ﻿<div class="fade-in contentbox">
     <div class="row">
     <ul class="list-group">
-        <li class="list-group-item" ng-repeat="product in app.products">
+        <li class="list-group-item" ng-repeat="site in app.portfolio">
             <div class="row">
                 <div class="col-xs-5">
-                <a href="{{product.url}}"><h3>{{product.name}}</h3></a>
-                    <div class="panel"> <ul class="tags">  <li class="tag" ng-repeat="language in product.languages">{{language}}</li></ul></div>
-                    <ul class="nav nav-pills" ng-init="tab = 1"> 
+                <a href="{{site.url}}"><h3>{{site.name}}</h3></a>
+                    <div class="panel"> <ul class="tags">  <li class="tag" ng-repeat="language in site.languages">{{language}}</li></ul></div>
+                    <ul class="nav nav-pills" ng-init="tab = 1">
                         <li ng-class="{ active:tab ===1}"> <a href ng-click="tab = 1"> Description</a></li>
                         <li ng-class="{ active:tab ===3}"> <a href ng-click="tab = 3"> Comments</a></li>
                     </ul>
             </div>
                     <div class="col-xs-5 xs-col-offset-2">
-            <img src="{{product.img}}" class="img-responsive" alt="Responsive image">
+            <img src="{{site.img}}" class="img-responsive" alt="Responsive image">
                 </div>
                 </div>
-
-             <!---- <section ng-init="tab = 1">
-                        <ul class="nav nav-pills">
-                            <li ng-class="{ active:tab ===1}"> <a href ng-click="tab = 1"> Description</a></li>
-                            <li ng-class="{ active:tab ===2}"> <a href ng-click="tab = 2"> Languages</a></li>
-                            <li ng-class="{ active:tab ===3}"> <a href ng-click="tab = 3"> Comments</a></li>
-                        </ul>   --> 
                         <div class="panel" ng-show="tab === 1">
                             <h4>Description</h4>
-                            <p>{{product.description}}</p>
+                            <p>{{site.description}}</p>
                         </div>
                         <div class="panel" ng-show="tab === 3">
                             <h4>Comments</h4>
-                            <p>{{product.comments}}</p>
+                            <p>{{site.comments}}</p>
                         </div>
                     </section>
                 </div>
