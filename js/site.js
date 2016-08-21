@@ -10,7 +10,7 @@
             {
                 name: 'Property Management Desktop',
                 languages: ['Django'],
-                description: "A Django application to for property management. Github link: https://github.com/waynehall/kmpmd/",
+                description: "A Django application to for property management. <a href='https://github.com/waynehall/kmpmd/'>Github link</a>",
                 url: 'https://lit-scrubland-41108.herokuapp.com/propdesk/',
                 comments: "Designed this to help out at Kidder Mathews to further combine several tools and files into one webapp that can be used remotely.",
                 img: 'https://waynehall.github.io/img/pmd.jpg',
