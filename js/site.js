@@ -79,13 +79,6 @@
                  comments: "Wanted to make a little weather application using Open Weather Maps API.",
                  img: 'https://waynehall.github.io/img/weather.JPG',
              },
-             {
-                 name: 'This site!',
-                 languages: ['AngularJS', 'Bootstrap'],
-                 description: "My Portfolio!",
-                 url: 'waynehall.github.io',
-                 comments: "I've been trying to learn AngularJS for about a month.  After smashing my head against a wall for a few times with Angular 2 Beta, I decided to step back and do 1.5, and this is my first product with it.  The day I finished was the day Angular 2 was no longer Beta."
-             },
         ];
 
 
