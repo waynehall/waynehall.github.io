@@ -10,12 +10,7 @@ h1{
   background-color:rgba(0, 0, 0, 0.25);
   color: white;
 }
-.list-group{
-    background-color:rgba(0, 0, 0, 0.25);
-}
-.list-group-item{
-    background-color:rgba(0, 0, 0, 0.25);
-}
+
 .menuitem{
   font-family: "Press Start 2P";
   color: white;
@@ -27,5 +22,11 @@ h1{
   opacity:1;
 }
 #portfolio{
-  color: #ffffff;
+  color: #000000;
+}
+.list-group{
+    background-color:rgba(0, 0, 0, 0.25) !important;
+}
+.list-group-item{
+    background-color:rgba(0, 0, 0, 0.25) !important;
 }
