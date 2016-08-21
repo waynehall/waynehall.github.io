@@ -24,7 +24,7 @@ h1, h2, h3, h4{
 }
 .menuactive{
   opacity: 1;
-  border-bottom: solid white 5px;
+  border-bottom: solid #3d3b4d 3px;
 }
 
 .list-group{
