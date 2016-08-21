@@ -8,6 +8,14 @@
 
     var programs = [
             {
+                name: 'Property Management Desktop',
+                languages: ['Django'],
+                description: "A Django application to for property management. Github link: https://github.com/waynehall/kmpmd/",
+                url: 'https://lit-scrubland-41108.herokuapp.com/propdesk/',
+                comments: "Designed this to help out at Kidder Mathews to further combine several tools and files into one webapp that can be used remotely.",
+                img: 'https://waynehall.github.io/img/pmd.jpg',
+            },
+            {
                 name: 'Blazers Salary Cap Calculator',
                 languages: ['AngularJS'],
                 description: "A tool designed for Basketball Nerds to speculate which players the Blazers may keep and which new players they may sign.",
