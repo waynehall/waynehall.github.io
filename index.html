@@ -5,11 +5,11 @@
    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu+Condensed|Press+Start+2P" rel="stylesheet">
 </head>
-<body ng-controller="AppController as app" ng-init:"navtab = 1">
+<body ng-controller="AppController as app">
 <div> <img src="img/logo.gif" />
 </div>
   <div class="container-fluid">
-    <div class="col-sm-8" id="content">
+    <div class="col-sm-8" id="content" ng-init:"navtab = 1">
       <div ng-show="navtab ===1" ng-include="'me.html'"></div>
       <div ng-show="navtab ===3" ng-include="'learning.html'"></div>
       <div ng-show="navtab ===2" ng-include="'portfolio.html'"></div>
