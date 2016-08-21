@@ -1,0 +1,23 @@
+body{
+  background-image: url('../img/oct.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1{
+  font-family: "Press Start 2P" !important;
+}
+#content{
+  background-color:rgba(0, 0, 0, 0.25);
+  height: 600px;
+  color: white;
+}
+.menuitem{
+  font-family: "Press Start 2P";
+  color: white;
+  opacity: .5;
+  text-shadow: 2px 2px 4px #000000;
+  transition: all ease 1s;
+}
+.menuitem:hover{
+  opacity:1;
+}
