@@ -22,6 +22,10 @@ h1, h2, h3, h4{
 .menuitem:hover{
   opacity:1;
 }
+.menuactive{
+  opacity: 1;
+  border-bottom: solid white 5px;
+}
 
 .list-group{
     background-color:rgba(0, 0, 0, 0.25) !important;
