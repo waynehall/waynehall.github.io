@@ -20,7 +20,7 @@ a:hover{
   padding-right: 50px;
   padding-top: 10px;
   color: white;
-  transition: ease all .75s
+  transition: ease all .4s
 }
 .iconsize:hover{
   font-size: 2.3em !important;
