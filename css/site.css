@@ -8,12 +8,23 @@ h1, h2, h3, h4{
 }
 a{
   color: #3498db;
-  transition: ease all 1s;
+  transition: ease all .75s;
 }
 a:hover{
   color: #f39c12;
   text-decoration: none !important;
   }
+.iconsize{
+  font-size: 2em !important;
+  float: right;
+  padding-right: 50px;
+  padding-top: 10px;
+  color: white;
+  transition: ease all .75s
+}
+.iconsize:hover{
+  font-size: 2.3em !important;
+}
 #content{
   background-color:rgba(0, 0, 0, 0.25);
   color: white;
@@ -25,7 +36,7 @@ a:hover{
   color: white;
   opacity: .5;
   text-shadow: 2px 2px 4px #000000;
-  transition: all ease 1s;
+  transition: all ease .75s;
   cursor: pointer;
 }
 .menuitem:hover{
