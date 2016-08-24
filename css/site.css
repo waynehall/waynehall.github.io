@@ -9,6 +9,7 @@ body{
 }
 @media (min-width: 600px) {
     .element {
+      background-attachment: none;
       background-size: auto;
       background-position: left;
         background-image: url('../img/oct.jpg');
