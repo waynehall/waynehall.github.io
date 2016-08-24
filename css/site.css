@@ -10,9 +10,9 @@ body{
 @media (min-width: 600px) {
     body {
       background-attachment: none;
-      background-size: auto;
+      background-size: none;
       background-position: left;
-        background-image: url('../img/oct.jpg');
+      background-image: url('../img/oct.jpg');
     }
 }
 h1, h2, h3, h4{
