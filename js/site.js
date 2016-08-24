@@ -23,24 +23,6 @@
                 comments: "I approached this wanting to do more with Angular.  Mostly playing with arrays and JSON objects.",
                 img: 'https://waynehall.github.io/img/blaz.JPG',
             },
-
-            {
-                name: 'Contract Generator',
-                languages: ['C#', 'WinForms'],
-                description: "Pulls information from an access database and populates a Word document with placeholders.",
-                url: 'https://github.com/waynehall/csharp_wordfindreplace',
-                comments: "This desktop app was created to reduce the amount of time people spent creating contracts at Kidder Mathews.  The difficult part was having to incorporate Microsoft Word in the solution, as the document needed to be easily editable after it was created.",
-                img: 'https://waynehall.github.io/img/contract.PNG',
-            },
-            {
-                name: 'Random Quote Generator',
-                languages: ['jQuery', 'Bootstrap'],
-                description: 'A space-themed random quote generator powered by jQuery and styled with bootstrap.',
-                url: 'http://codepen.io/wayneculverhall/pen/Kzxgqm',
-                comments: 'I wanted to style this a bit different than your average random quote generator.  I decided to try to give it a pixelated look and use loops to create a live typing effect.',
-                img: 'https://waynehall.github.io/img/quotegen.JPG',
-            },
-
              {
                  name: 'Comics Adventure',
                  languages: ['Bootstrap'],
@@ -50,12 +32,28 @@
                  img: 'https://waynehall.github.io/img/camock.PNG',
              },
              {
+                 name: 'Random Quote Generator',
+                 languages: ['jQuery', 'Bootstrap'],
+                 description: 'A space-themed random quote generator powered by jQuery and styled with bootstrap.',
+                 url: 'http://codepen.io/wayneculverhall/pen/Kzxgqm',
+                 comments: 'I wanted to style this a bit different than your average random quote generator.  I decided to try to give it a pixelated look and use loops to create a live typing effect.',
+                 img: 'https://waynehall.github.io/img/quotegen.JPG',
+             },
+             {
                  name: 'Fibonacci-Me',
                  languages: ['AngularJS', 'Bootstrap'],
                  description: 'Fibonacci sequence generator',
                  url: 'http://codepen.io/wayneculverhall/pen/dXzZro',
                  comments: 'A big part of learning to program is understanding algorithms, and the Fibonacci sequence was good practice.  I threw in some AngularJS to keep refining my skills in that area.',
                  img: 'https://waynehall.github.io/img/fibo.PNG',
+             },
+             {
+                 name: 'Contract Generator',
+                 languages: ['C#', 'WinForms'],
+                 description: "Pulls information from an access database and populates a Word document with placeholders.",
+                 url: 'https://github.com/waynehall/csharp_wordfindreplace',
+                 comments: "This desktop app was created to reduce the amount of time people spent creating contracts at Kidder Mathews.  The difficult part was having to incorporate Microsoft Word in the solution, as the document needed to be easily editable after it was created.",
+                 img: 'https://waynehall.github.io/img/contract.PNG',
              },
              {
                  name: 'wayneBlog',
