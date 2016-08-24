@@ -7,7 +7,12 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
 }
-
+@media (min-width: 600px) {
+    .element {
+      background-size: auto;
+        background-image: url('../img/oct.jpg');
+    }
+}
 h1, h2, h3, h4{
   font-family: "Press Start 2P" !important;
 }
