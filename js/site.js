@@ -23,14 +23,7 @@
                 comments: "I approached this wanting to do more with Angular.  Mostly playing with arrays and JSON objects.",
                 img: 'https://waynehall.github.io/img/blaz.JPG',
             },
-            {
-                name: 'wayneBlog',
-                languages: ['Django', 'Python'],
-                description: 'A blog created in Django to comment on my path in learning programming. ',
-                url: 'https://wayneblog.herokuapp.com/',
-                comments: "My first Django App! Actually, its my second, but a tutorial doesn't really count. It is barebones for now, but it won't always be that way. It was fun getting back to Python, but once you figure out how it works and what it all does, there really wasn't much python to be written.  Seems to do most of the work for you.  Hopefully as I add more features, I'll get to do more with python.",
-                img: 'https://waynehall.github.io/img/blog.JPG',
-            },
+
             {
                 name: 'Contract Generator',
                 languages: ['C#', 'WinForms'],
@@ -47,14 +40,7 @@
                 comments: 'I wanted to style this a bit different than your average random quote generator.  I decided to try to give it a pixelated look and use loops to create a live typing effect.',
                 img: 'https://waynehall.github.io/img/quotegen.JPG',
             },
-            {
-                name: 'Fibonacci-Me',
-                languages: ['AngularJS', 'Bootstrap'],
-                description: 'Fibonacci sequence generator',
-                url: 'http://codepen.io/wayneculverhall/pen/dXzZro',
-                comments: 'A big part of learning to program is understanding algorithms, and the Fibonacci sequence was good practice.  I threw in some AngularJS to keep refining my skills in that area.',
-                img: 'https://waynehall.github.io/img/fibo.PNG',
-            },
+
              {
                  name: 'Comics Adventure',
                  languages: ['Bootstrap'],
@@ -62,6 +48,22 @@
                  url: 'http://codepen.io/wayneculverhall/full/dXjRYL/',
                  comments: 'I\'ve created several mockups of a site for a local comic book shop that currently does not have their own.  This is just the latest.',
                  img: 'https://waynehall.github.io/img/camock.PNG',
+             },
+             {
+                 name: 'Fibonacci-Me',
+                 languages: ['AngularJS', 'Bootstrap'],
+                 description: 'Fibonacci sequence generator',
+                 url: 'http://codepen.io/wayneculverhall/pen/dXzZro',
+                 comments: 'A big part of learning to program is understanding algorithms, and the Fibonacci sequence was good practice.  I threw in some AngularJS to keep refining my skills in that area.',
+                 img: 'https://waynehall.github.io/img/fibo.PNG',
+             },
+             {
+                 name: 'wayneBlog',
+                 languages: ['Django', 'Python'],
+                 description: 'A blog created in Django to comment on my path in learning programming. ',
+                 url: 'https://wayneblog.herokuapp.com/',
+                 comments: "My first Django App! Actually, its my second, but a tutorial doesn't really count. It is barebones for now, but it won't always be that way. It was fun getting back to Python, but once you figure out how it works and what it all does, there really wasn't much python to be written.  Seems to do most of the work for you.  Hopefully as I add more features, I'll get to do more with python.",
+                 img: 'https://waynehall.github.io/img/blog.JPG',
              },
              {
                  name: 'divBright',
