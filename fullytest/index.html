@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link href="css/site.css" rel="stylesheet">
+</head>
+<body ng-controller="AppController as app">
+<div class="container">
+    <div class="row">
+        
+        <div class="col-sm-3 no-float" id="menu">
+            <div class="logo">
+            <img src="img/logo-fully.png"> 
+            <h2> Knowledge-Base </h2>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item"><h3 class="menuparent" ng-init="trainingMenu = 0" ng-click="trainingMenu = !trainingMenu; menuSelect=1"> Training Manuals</h3>
+                    <div class="menufade" ng-show="trainingMenu">
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="https://docs.google.com/a/fully.com/document/d/1ePgncvvP0AM2Tsc0TJwy4RNn61PQYd6knqjURRL5o90/edit?usp=sharing">Magento Training Manual</a></li>
+                            <li class="list-group-item"><a href="https://docs.google.com/a/fully.com/document/d/10aylToz9MRdcoJ0quhCuHW6vMoI7YvjlsNFJim7vPzw/edit?usp=sharing">Netsuite Training Manual</a></li>
+                            <li class="list-group-item"><a href="#"><span ng-click="menuSelect = 5">Phone Guides</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list-group-item"><h3 class="menuparent" ng-init="formMenu = 0" ng-click="formMenu = !formMenu; menuSelect=2"> Forms</h3>
+                    <div class="menufade" ng-show="formMenu">
+                        <ul class="list-group">
+                            <li class="list-group-item"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfmFcrV2enCqy0ZVm-7Dr-6ueW9BhIe5fumu1idU3yJ9bpwoQ/viewform">Venture Card Form</a></li>
+                            <li class="list-group-item"> <a href="https://docs.google.com/a/fully.com/forms/d/e/1FAIpQLSc2-u0fKdhQRrs06ttxs2-nsbAqoJmx7QIyV5zmYfHUwO5Dvg/viewform?c=0&w=1"> Wellness Form</a></li>
+                            <li class="list-group-item"> <a href="https://docs.google.com/forms/d/e/1FAIpQLScxMYwIc59GET5UdrwcK9IGwxGcCweo12RLjEz0Bnt44EG2xg/viewform"> Reimbursement Form</a></li>
+                        </ul>
+                    </div>
+                </li>      
+                <li class="list-group-item"><h3 class="menuparent" ng-click="menuSelect = 3"> FAQ</h3></li>
+                <li class="list-group-item"><h3 class="menuparent" ng-click="menuSelect = 4"> Directory</h3></li>
+            </ul>
+        </div>
+        <div class="col-sm-9 no-float" id="content" ng-init="menuSelect=0">
+            <div ng-show="menuSelect == 0" >
+                <h3> Welcome to the Fully Knowledge-Base</h3>
+                <p>  Here you will find commonly shared information, manuals, tips, links, and directory.  It will be your source for all things Fully.</p>
+            </div>
+            <div ng-show="menuSelect == 1" > <h3>We use a lot of systems and software.  Here, you'll find some information on how to use them.</h3></div>
+            <div ng-show="menuSelect == 2" > <h3>PLACE HOLDER FOR FORMS!!!</h3></div>
+            <div ng-show="menuSelect == 3" > <h3>PLACE HOLDER FOR FAQ!!!</h3></div>
+            <div ng-show="menuSelect == 4" ><h3>PLACE HOLDER FOR DIRECTORY!!!</h3></div>
+            <div ng-show="menuSelect == 5" >
+                <h3>Guides for 8x8 phone systems</h3>
+                <h4> <a href="https://drive.google.com/open?id=0B5uuMThXWoi_N1dFczFrTllxc2M"> Polycom VVX 300 Manual</a></h4>
+                <p> This guide will help you navigate your complex Polycom phone System. </p>
+                <h4> <a href="https://drive.google.com/open?id=0B5uuMThXWoi_T3pzSktuM2RzbGs"> 8x8 Voicemail Guide</a></h4>
+                <p>  Rabbid dog swarm in Portland?  Need to change Fully's voicemail because all employees now have Rabbies? This pdf has you covered!</p>
+                <h4> <a href="https://drive.google.com/open?id=0B5uuMThXWoi_ekFoTjhxaEJJYVU"> 8x8 Desktop Client Manual</a></h4>
+                <p> Got a cold and need to work from home?  The 8x8 Desktop Client will unfortunately let you do that.</p>
+                <h4> <a href="https://www.youtube.com/playlist?list=PLgV2N-OUBAf0-71P6rSukkq8jCwGQbMIs"> 8x8 Video Guides</a></h4>
+                <p> Don't do reading? 8x8 has you covered for all of these issues and more with their video tutorials!</p>
+            </div>
+    </div>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-animate.min.js"></script>
+<script type="text/javascript" src="js/site.js"></script>
+</body>
+</html>

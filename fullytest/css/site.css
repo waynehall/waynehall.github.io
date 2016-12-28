@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+html,body,.container
+{
+    height:100%;
+}
+.container
+{
+    display:table;
+    width: 100%;
+    padding: 0 0 0 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.row
+{
+    height: 100%;
+    display: table-row;
+}
+@media (min-width: 992px) {
+  .row .no-float {
+      display: table-cell;
+      float: none;
+  }
+}
+.list-group{
+    background: darkgray;
+    color: white;
+    border-radius: 10px;
+}
+.list-group-item{
+    background: darkgray;
+    border: none;
+}
+
+#menu{
+    background: darkgray;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.logo{
+    margin-left: 15px;
+}
+.menuparent:hover{
+    color: #ffd524;
+    transition: all linear 0.2s;
+    cursor: pointer;
+}
+
+.menufade {
+    color: white;
+    transition: all linear 0.3s;
+}
+.menufade.ng-hide {
+    opacity: 0;
+}
+#menu a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:active {
+    text-decoration: none;
+    color: white;
+}
+#content{
+    background: lightgray
+}
