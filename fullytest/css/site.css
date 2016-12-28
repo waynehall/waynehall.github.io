@@ -55,7 +55,6 @@ html,body,.container
 }
 
 .menufade {
-    color: white;
     transition: all linear 0.3s;
 }
 .menufade.ng-hide {
