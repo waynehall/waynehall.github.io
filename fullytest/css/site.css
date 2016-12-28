@@ -76,5 +76,8 @@ html,body,.container
     color: white;
 }
 #content{
-    background: lightgray
+    background: lightgray;
+    border-style: solid;
+    border-width: 0px 0px 0px 2px;
+    border-color: white;
 }
