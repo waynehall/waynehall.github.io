@@ -19,7 +19,7 @@ html,body,.container
     height: 100%;
     display: table-row;
 }
-@media (min-width: 692px) {
+@media (min-width: 792px) {
   .row .no-float {
       display: table-cell;
       float: none;
@@ -29,12 +29,17 @@ html,body,.container
     background: darkgray;
     color: white;
     border-radius: 10px;
+    padding: 1px 1px 1px 1px;
 }
 .list-group-item{
     background: darkgray;
     border: none;
+    padding: 5px 1px 1px 15px;
 }
-
+.list-group-item:hover{
+    color: #ffd524;
+    transition: all linear 0.2s;
+}
 #menu{
     background: darkgray;
     padding-top: 20px;
@@ -68,7 +73,8 @@ html,body,.container
 
 #menu a:hover {
     text-decoration: none;
-    color: white;
+    color: #ffd524;
+    transition: all linear 0.2s;
 }
 
 #menu a:active {
