@@ -25,18 +25,18 @@ html,body,.container
       float: none;
   }
 }
-.list-group{
+.menu-list{
     background: darkgray;
     color: white;
     border-radius: 10px;
     padding: 1px 1px 1px 1px;
 }
-.list-group-item{
+.menu-item{
     background: darkgray;
     border: none;
     padding: 5px 1px 1px 15px;
 }
-.list-group-item:hover{
+.menu-item:hover{
     color: #ffd524;
     transition: all linear 0.2s;
 }
@@ -85,4 +85,7 @@ html,body,.container
     border-style: solid;
     border-width: 0px 0px 0px 2px;
     border-color: white;
+}
+.type-span{
+    margin-right: 20px;
 }
