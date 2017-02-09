@@ -29,6 +29,7 @@ a[x-apple-data-detectors] {
 }
 #sidePanel{
         background: url("https://waynehall.github.io/fullytest/img/fullystaff.jpg");
-        background-size: contain;
+        background-size: 100%;
+        background-repeat: no-repeat;
         height: 400px;
 }
