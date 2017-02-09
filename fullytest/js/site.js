@@ -1,6 +1,6 @@
 var app = angular.module('app', ['ngAnimate']);
 
-
+console.log("hi")
 app.controller('AppController', ['$scope', '$http', '$q', function($scope, $http,$q) { 
   console.log("hi")
   $http.get('https://spreadsheets.google.com/feeds/list/1GY-HS0jdJD6Vsj3W7yUSjcoouYjIo90OuMS0-GQ6Qzo/1/public/values?alt=json').then(function (success){ 
