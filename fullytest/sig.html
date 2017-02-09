@@ -5,11 +5,12 @@
 <link href="css/sig.css" rel="stylesheet">
 </head>
 <body ng-controller="AppController">
-<div ng-show="genSig" ng-init="genSig = true">
+<div id="input-div" ng-show="genSig" ng-init="genSig = true">
     <h2> Fully Signature Generator!</h2>
     <span> <h4>Name: </h4><input ng-model="name"></span>
     <span> <h4>Title: </h4><input ng-model="title"></span>
     <span> <h4>Number: </h4><input ng-model="number"></span>
+    <p> Copy below this line! </p>
 </div>
 <div>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
