@@ -33,3 +33,7 @@ a[x-apple-data-detectors] {
         background-repeat: no-repeat;
         height: 400px;
 }
+#copyText{
+        text-shadow: 4px 2px #ffd623;
+        padding-left: 20px;
+}
