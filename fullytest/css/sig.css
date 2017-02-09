@@ -1,6 +1,7 @@
 #input-div{
     border-bottom: solid black 5px;
     padding: 5px;
+    background-color: #eaeaea;
 }
 a.link{
     margin:0;padding:0;border:none;text-decoration:none;
@@ -17,4 +18,16 @@ a[x-apple-data-detectors] {
     font-family: inherit !important;
     font-weight: inherit !important;
     line-height: inherit !important;
+}
+.form-control{
+    margin-bottom: 5px;
+}
+
+.yellow-text{
+    color:#ffd623;
+}
+#sidePanel{
+        background: url("http://waynehall.github.io/fullytest/img/fullystaff.jpg");
+        background-size: contain;
+        height: 400px;
 }
