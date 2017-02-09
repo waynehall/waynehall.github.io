@@ -25,9 +25,10 @@ a[x-apple-data-detectors] {
 
 .yellow-text{
     color:#ffd623;
+    text-shadow: 3px 1px #fff;
 }
 #sidePanel{
-        background: url("http://waynehall.github.io/fullytest/img/fullystaff.jpg");
+        background: url("https://waynehall.github.io/fullytest/img/fullystaff.jpg");
         background-size: contain;
         height: 400px;
 }
