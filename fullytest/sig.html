@@ -55,6 +55,7 @@
 
     </div>
     <div id="htmlTextBackground" ng-show="htmlText">
+    <button class="btn btn-primary" ng-init="htmlText = false" ng-click="htmlText = !htmlText"> Hide HTML </button>
         <div id="htmlText">
         &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;</br>
         &lt;meta name="format-detection" content="telephone=no"&gt;</br>
@@ -83,7 +84,6 @@
                     &lt;/tr&gt;</br>
                 &lt;/table&gt;</br>
         &lt;br /&gt;&nbsp;</br>
-        <button class="btn btn-primary" ng-init="htmlText = false" ng-click="htmlText = !htmlText"> Hide HTML </button>
         </div>
     </div>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
