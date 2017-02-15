@@ -2,6 +2,7 @@
     border-bottom: solid black 5px;
     padding: 5px;
     background-color: #eaeaea;
+    z-index: -1
 }
 a.link{
     margin:0;padding:0;border:none;text-decoration:none;
@@ -36,4 +37,21 @@ a[x-apple-data-detectors] {
 #copyText{
         text-shadow: 4px 2px #ffd623;
         padding-left: 20px;
+}
+#htmlTextBackground{
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 1200px;
+    width: 100%;
+    background: black;
+    opacity: 50%
+}
+#htmlText{
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    left: 10%;
+    top: 10%;
 }
