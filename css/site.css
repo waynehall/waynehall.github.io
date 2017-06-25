@@ -11,7 +11,7 @@ body{
       background-attachment: none;
       background-size: auto;
       background-position: left;
-      background-image: url('../img/oct.jpg');
+      /*background-image: url('../img/oct.jpg');*/
     }
 }
 h1, h2, h3, h4{
@@ -61,7 +61,7 @@ a:hover{
 .list-group{
     background-color: none !important;
     border-radius: 0 !important;
-    margin: 0 !important
+    margin: 0 !important;
     left: 0 !important;
 }
 .list-group-item{
