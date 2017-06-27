@@ -5,14 +5,14 @@ body{
   webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background: #7971BF;
+  background-color: #7971BF;
 }
 @media (min-width: 600px) {
     body {
       background-attachment: none;
       background-size: auto;
       background-position: left;
-      background: #7971BF;
+      background-color: #7971BF;
       /*background-image: url('../img/oct.jpg');*/
     }
 }
