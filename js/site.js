@@ -10,7 +10,7 @@
             {
                  name: "NBADraft (Summer 2017 Project)",
                  languages: ['React', 'D3.js', 'Django'],
-                 description: "My current project, only some portions are working at the moment. Currently sitting at <a href='https://github.com/waynehall/draftsite'> Github</a> with a slightly more built out version.",
+                 description: "My current project, only some portions are working at the moment. Currently sitting at Github with a slightly more built out version.",
                  url: 'https://waynehall.github.io/nbadraft/player.html',
                  comments: "As a stats nerd and a Blazer fan, I had this wonderful idea for a basketball site.",
                  img: 'https://waynehall.github.io/img/nbadraft.jpg',
