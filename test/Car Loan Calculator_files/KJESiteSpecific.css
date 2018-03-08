@@ -1,0 +1,127 @@
+.DinkytownReportHeader {
+    text-align:center;
+    width:95%;
+    border-width:1px;
+    border-style: solid;
+    border-color: #000000;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 0px;
+    border: 1px solid #666666;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.DinkytownTagLine {
+   font-size: 1.3em;
+    text-align:center;
+    margin: 0px;
+    padding: 10px;
+}
+
+.DinkytownContent {
+  text-align:left;
+  padding: 1em;
+}
+
+.DinkytownReportTitle {
+    font-size: 1.4em;
+}
+
+.KJEReportTitle {
+    font-size:1.2em;
+    font-weight:bold;
+    margin: 0;
+    padding: 0;
+}
+
+.KJEReportTitleBlock {
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    margin: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.KJEWidthConstraint {
+    max-width: 900px;
+    text-align:left;
+    margin: auto;
+    background: #ffffff;
+    padding:15px;
+}
+
+#KJEDefinitionText {
+    padding-left:10px;
+    margin-top: 1em;
+}
+
+#KJEDefinitionText dt.KJEDefinition {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.0em;
+    padding:0;
+    margin: 0;
+    line-height: normal;
+}
+
+#KJEDefinitionText dd.KJEDefinition {
+    margin:0;
+    text-align: left;
+    font-weight: normal;
+    padding: 0px 10px 20px 10px;
+}
+
+#KJEDefinitionText p.KJEDefinition {
+    font-size: 1.0em;
+    line-height: normal;
+    margin: .7em 0 0 0;
+}
+
+#KJEDefinitionText td, #KJEDefinitionText th, #KJEDefinitionText ul, #KJEDefinitionText li, #KJEDefinitionText ol {
+    font-size: 1.0em;
+    line-height: normal;
+}
+
+@media screen and (max-width:640px){
+	    #KJEDefinitionText {
+        padding-left:5px;
+    }
+
+    #KJEDefinitionText dt.KJEDefinition {
+        font-size: 0.9em;
+    }
+
+    #KJEDefinitionText dd.KJEDefinition {
+        padding: 5px 5px 20px 5px;
+    }
+
+    #KJEDefinitionText p.KJEDefinition {
+      font-size: 0.90em;
+      line-height: 1.5em;
+    }
+
+    #KJEDefinitionText td, #KJEDefinitionText li, #KJEDefinitionText th {
+        font-size: 0.9em;
+        line-height: 1.5em;
+    }
+
+    #KJEDefinitionText ul, #KJEDefinitionText ol {
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width:550px){
+#KJEDefinitionText table.KJEReportTableShrink td {
+    font-size: 0.75em;
+    }
+
+#KJEDefinitionText table.KJEReportTableShrink th {
+        font-size: 0.65em;
+    }
+	
+}

@@ -1,0 +1,27 @@
+
+// Calculator backgrounds and colors
+KJE.ErrorBackground="#FFFFFF"; // backgroundColor
+KJE.IncompleteBackground="#FFFFFF";
+KJE.ClearColor="#FFFFFF";
+KJE.colorList=["","#FFFFFF","#cccccc","#BE4262","#FABB50","#DDCCDD","#CCCCCC","#CCCCDD","#CCDDCC","#CCDDDD","#CCCCDD"];
+
+// Report Header and Footer
+KJE.ReportHeader="<div class='KJEReportTitleBlock'><div class='KJEReportTitle'>**REPORT_TITLE**</div><br><div id=KJELogo><br><br><br><br><br><center><h1><a href='http://www.dinkytown.net'>Dinkytown.net V3</a> - The Best Financial Calculators Anywhere!</h1></center></div>www.dinkytown.net</div>";
+KJE.ReportFooter="<div class=KJECenter><p class='KJEReportFooter KJECenter'>      <strong>          &copy; 1998-2018 KJE Computer Solutions, Inc.        </strong>        <br/>        Financial Calculators at http://www.dinkytown.net        <br/>        (612) 331-2291        <br/>        1730 New Brighton Blvd. PMB #111        <br/>        Minneapolis, MN 55413        <p class=KJEFooter>          KJE Computer Solutions, Inc.'s information and interactive calculators are made          available to you as self-help tools for your independent use and are not          intended to provide investment advice. We cannot and do not guarantee their          applicability or accuracy in regards to your individual circumstances. All          examples are hypothetical and are for illustrative purposes.  We encourage you          to seek personalized advice from qualified professionals regarding all personal          finance issues. More          <a href=\"http://www.dinkytown.net\">Financial Calculators from Dinkytown.net</a></p></div><!--EXTRA_FOOTER-->";
+
+// Graph fonts, colors and heights
+KJE.gFont           = ["Arial","Arial","Arial"];
+KJE.gFontStyle      = ["bold","bold",""];
+KJE.gFontSize       = [13,10,10];
+KJE.gHeight               = 250;
+KJE.gHeightReport         = 350;
+KJE.gColorBackground      ="#FFFFFF";
+KJE.gColorForeground      ="#000000";
+KJE.gColorGrid            ="#FFFFFF";
+KJE.gColorGridBackground1 ="#FFFFFF";
+KJE.gColorGridBackground2 ="#FFFFFF";
+KJE.gColorAxisLine        ="#666666";
+KJE.gColorText            ="#000000";
+KJE.gColorList            = ["#000055","#246C9D","#64A650","#FFF200","#5f007f","#F15A22","#B72467","#6DC8BF","#FF0000","#ff00ff","#ffff00","#00ffff","#7f007f","#7f0000","#007f7f","#0000ff","#00c8ff","#60ffff","#bfffbf","#ffff90","#a0c8ef"];
+
+
