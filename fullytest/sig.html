@@ -13,8 +13,19 @@
                     <h5> Enter in your information, then copy your signature to use in your email!</h5>
                     <span> <label for="nameInput">Name </label><input class="form-control" id="nameInput" ng-model="name"></span>
                     <span> <label for="titleInput">Title</label><input class="form-control" id="titleInput" ng-model="title"></span> 
-                    <span> <label for="numberInput">Number</label><input class="form-control" id="numberInput" ng-model="number"></span>
-                </div>
+                    <span> <label for="numberInput" >Number (numbers and dashes only, other characters wont show up)</label><input class="form-control" id="numberInput" ng-model="number" type='tel' pattern="[0-9\-]+"></span>
+                    <span> I want a second number   <input id="checkBox" type="checkbox" ng-model="number2check"></span>
+                    <span>Number 2 label <select name="number2type" ng-model="number2type">
+                        <option value="O">Office</option>
+                        <option value="C">Cell</option>
+                        <option value="WhatsApp">WhatsApp</option>
+                      </select></span> <br/>
+                    <span>  <label for="numberInput">Number2 (numbers and dashes only, other characters wont show up)</label><input type="text" pattern="[0-9\-]+" class="form-control" id="number2Input" ng-model="number2" ></span>
+                    <span>Pronouns<select name="Pronouns" ng-model="pronouns">
+                        <option value="They, them, their">They, them, their</option>
+                        <option value="She, her, hers">She, her, hers</option>
+                        <option value="He, him, his">He, him, his</option>
+                      </select></span>                </div>
             </div>
             <div class="col-sm-8" id="sidePanel">
             </div>
@@ -33,19 +44,22 @@
 
         <table width="320" border="0" cellpadding="0" cellspacing="0" style="margin:0;padding:0;font-family: 'Helvetica Neue', Arial, sans-serif;font-size: 12px;line-height:15px;border-collapse:collapse;-webkit-text-size-adjust:none;">
                     <tr valign="top">
-                        <td width="320" colspan="2" style="width:320px;margin:0;padding:0;font-family: 'Helvetica Neue', Arial, sans-serif;font-size: 6px;line-height:36px;white-space:nowrap;">&nbsp;</td>
+                        <td width="320" colspan="2" style="width:320px;margin:0;padding:0;font-family: 'Helvetica Neue', Arial, sans-serif;font-size: 6px;line-height:36px;">&nbsp;</td>
                     </tr>
                     <tr valign="top">
-                    <td width="145" style="width:145px;margin:0;padding:0;font-family: 'Helvetica Neue', Arial, sans-serif;font-size: 12px;line-height:15px;white-space:nowrap;">
+                    <td width="145" style="width:145px;margin:0;padding:0;font-family: 'Helvetica Neue', Arial, sans-serif;font-size: 12px;line-height:15px;">
                         <strong><span style="color:#000">{{ name }}</span></strong><br />
-                        <span style="color:#AAA;">{{ title }}</span><br />
-                        <span class="text" style="border:none;text-decoration:none;color:#AAA"> {{ number }} </span>
+                        <span style="color:#AAA; word-wrap: normal;">{{ title }}</span><br />
+                        <span class="text" style="border:none;text-decoration:none;color:#AAA"> {{ number }} </span><br/>
+                        <span class="text" style="border:none;text-decoration:none;color:#AAA" ng-show="number2check"> {{number2type}}: {{ number2 }}  <br/></span>
+                        <br/>
+                        <span class="text" style="font-size:10px;border:none;text-decoration:none;color:#BBB">{{ pronouns }}</span>    
                     </td>
                     <td width="175" valign="top" style="width:175px;margin:0;padding:0;font-family: 'Helvetica Neue',Arial, sans-serif;font-size: 12px;line-height:15px;color:#787b80;white-space:nowrap;">
                         <span class="text" style="border:none;text-decoration:none;color:#ffd623"><b>Fully</b></span><br />
                         <span class="text" style="border:none;text-decoration:none;color:#BBB">Desks, chairs & things<br />to keep you moving<br />
                         <br />
-                        <span class="text" style="font-size:10px;border:none;text-decoration:none;color:#CCC">Fully is a Certified B Corp<br />
+                        <span class="text" style="font-size:10px;border:none;text-decoration:none;color:#CCC">Fully is a Certified B Corp</span>    <br />
         <!-- 				<span class="text" style="border:none;text-decoration:none;color:#CCC">Ergo Depot is now Fully</span> -->
                     </td>	
                     </tr>
@@ -73,6 +87,8 @@
                         &lt;strong&gt;&lt;span style="color:#000"&gt;{{ name }}&lt;/span&gt;&lt;/strong&gt;&lt;br /&gt;</br>
                         &lt;span style="color:#AAA;"&gt;{{ title }}&lt;/span&gt;&lt;br /&gt;</br>
                         &lt;span class="text" style="border:none;text-decoration:none;color:#AAA"&gt; {{ number }} &lt;/span&gt;</br>
+                        &lt;br/&gt;</br>
+                        &lt;span class="text" style="font-size:10px;border:none;text-decoration:none;color:#BBB"&gt;{{ pronouns }}&lt;/span&gt;</br>  
                     &lt;/td&gt;</br>
                     &lt;td width="175" valign="top" style="width:175px;margin:0;padding:0;font-family: 'Helvetica Neue',Arial, sans-serif;font-size: 12px;line-height:15px;color:#787b80;white-space:nowrap;"&gt;</br>
                         &lt;span class="text" style="border:none;text-decoration:none;color:#ffd623"&gt;&lt;b&gt;Fully&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;</br>
